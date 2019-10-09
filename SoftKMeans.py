@@ -1,6 +1,10 @@
 #ICS435
 #Nathan Onaka
 #Soft K-Means
+#Soft K Means algorithm explanation https://en.wikipedia.org/wiki/Fuzzy_clustering#Fuzzy_c-means_clustering
+#Using data plots in attached data.txt file, the algorithm will attempt to identify and cluster related data points using distance.
+#It will color and graph these cluster groups and shade the points that belong to multiple clusters.
+#Changing the number of iterations, beta value, or number of groups will result in drastically different groupings.
 
 import pandas as pd
 import numpy as np
